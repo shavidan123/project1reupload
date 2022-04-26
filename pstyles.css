@@ -1,0 +1,344 @@
+/* Ignore following classes */
+
+* {
+    font-family: "Montserrat", sans-serif;
+    background-color: #ffffff;
+  }
+
+  #intro {
+    color: rgb(0, 0, 0);
+    text-align: center;
+    margin: 50px;
+  }
+  .img1{
+    position: absolute;
+width: 298px;
+height: 298px;
+left: 457px;
+top: 132px;
+  }
+  .r4{
+    position: absolute;
+    width: 760px;
+    height: 362px;
+    left: 28px;
+    top: 100px;
+
+    border: 8px solid #000000;
+    box-sizing: border-box;
+  }
+  .r4text{
+    position: absolute
+width: 341px;
+height: 275px;
+left: 80px;
+top: 154px;
+
+font-family: Overpass;
+font-style: normal;
+font-weight: normal;
+font-size: 40px;
+line-height: 51px;
+
+color: #000000;
+background-color: transparent;
+  }
+  .r13text{
+    position: absolute
+width: 341px;
+height: 275px;
+left: 80px;
+top: 154px;
+
+font-family: Overpass;
+font-style: normal;
+font-weight: normal;
+font-size: 20px;
+line-height: 51px;
+
+color: #000000;
+background-color: transparent;
+overflow: auto;
+  }
+  .r14text{
+    position: absolute
+width: 341px;
+height: 275px;
+left: 80px;
+top: 154px;
+
+font-family: Overpass;
+font-style: normal;
+font-weight: normal;
+font-size: 20px;
+line-height: 51px;
+
+color: #000000;
+background-color: transparent;
+overflow: auto;
+  }
+  .r12text{
+    position: relative
+width: 341px;
+height: 275px;
+left: 80px;
+top: 154px;
+
+font-family: Overpass;
+font-style: normal;
+font-weight: normal;
+font-size: 20px;
+line-height: 51px;
+
+color: #000000;
+background-color: #2D8FAD;
+overflow: auto;
+  }
+  .r11text{
+    position: relative;
+width: 249px;
+height: 148px;
+left: 65px;
+top: 508px;
+
+font-family: Overpass;
+font-style: normal;
+font-weight: bold;
+font-size: 48px;
+line-height: 61px;
+
+color: #000000;
+  }
+  .r7{
+    position: absolute;
+width: 1379px;
+height: 61px;
+left: 28px;
+top: 17px;
+
+background: #005671;
+border: 8px solid #000000;
+box-sizing: border-box;
+  }
+  .r5{
+    position: absolute;
+width: 594px;
+height: 362px;
+left: 813px;
+top: 100px;
+
+border: 8px solid #000000;
+box-sizing: border-box;
+  }
+  .r11{
+    position: absolute;
+width: 371px;
+height: 200px;
+left: 28px;
+top: 484px;
+
+border: 8px solid #000000;
+box-sizing: border-box;
+  }
+  .r12{
+    position: absolute;
+width: 334px;
+height: 344px;
+left: 421px;
+top: 484px;
+
+background: #2D8FAD;
+border: 8px solid #000000;
+box-sizing: border-box;
+  }
+  .r13{
+    position: absolute;
+width: 361px;
+height: 344px;
+left: 738px;
+top: 484px;
+
+background: #5EAAC2;
+border: 8px solid #000000;
+box-sizing: border-box;
+  }
+  .r14{
+    position: absolute;
+width: 366px;
+height: 344px;
+left: 1042px;
+top: 484px;
+
+background: #78CAE4;
+border: 8px solid #000000;
+box-sizing: border-box;
+  }
+  .r2{
+    position: absolute;
+width: 371px;
+height: 124px;
+left: 28px;
+top: 704px;
+
+background: #005671;
+border: 8px solid #000000;
+box-sizing: border-box;
+  }
+  .r10{
+    position: absolute;
+width: 1007px;
+height: 344px;
+left: 28px;
+top: 850px;
+
+border: 8px solid #000000;
+box-sizing: border-box;
+  }
+  .r9{
+    position: absolute;
+width: 349px;
+height: 344px;
+left: 1058px;
+top: 850px;
+
+border: 8px solid #000000;
+box-sizing: border-box;
+  }
+  .r8{
+    position: absolute;
+width: 1379px;
+height: 61px;
+left: 28px;
+top: 1216px;
+
+background: #005671;
+border: 8px solid #000000;
+box-sizing: border-box;
+
+  }
+
+  .insideborder {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .leftinsideborder {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .rightborder {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .para {
+    font-weight: 300;
+    margin-left: 10px;
+  }
+
+  h2 {
+    font-size: medium;
+    font-weight: 200;
+  }
+
+  /* Classes that you might find useful */
+  /* Note* These classes do not cover every possible case to build you flags, you will have to continue to add your own*/
+
+  .flag {
+    height: 300px;
+    width: 500px;
+    border-style: solid;
+    margin-bottom: 5rem;
+    z-index: 0;
+  }
+  .my-picture{
+    position: absolute;
+    bottom: -1360px;
+    right: 708px;
+    z-index: 1;
+  }
+
+  .horiz {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .twovert {
+    height: 50%;
+  }
+
+  .threevert {
+    height: 33.3%;
+  }
+
+  .threehoriz {
+    width: 33.3%;
+  }
+  .sixvert {
+    height: 16.67%
+  }
+
+  .skinny {
+    height: 17.5%;
+  }
+
+  .fat {
+    height: 30%;
+  }
+
+
+  .circle {
+    border-radius: 50%;
+    height: 200px;
+    width: 200px;
+    position: relative;
+    left: 85px;
+    top: 50px;
+  }
+
+  /* Colors/ Feel free to add your own! */
+
+  .red {
+    background-color: red;
+  }
+
+  .orange {
+    background-color: orange;
+  }
+
+  .yellow {
+    background-color: yellow;
+  }
+
+  .green {
+    background-color: green;
+  }
+
+  .blue {
+    background-color: blue;
+  }
+
+  .lightblue {
+    background-color: lightblue;
+  }
+  .romyellow {
+    background-color: rgb(254, 206, 0);
+  }
+  .romblue {
+    background-color: rgb(32, 0, 248);
+  }
+  .romred {
+    background-color: rgb(218, 0, 0);
+  }
+
+  .purple {
+    background-color: purple;
+  }
+
+  .white {
+    background-color: #fff;
+  }
+  .mexicowhite{
+    background-color: rgb(0, 0, 0, 0);
+  }
