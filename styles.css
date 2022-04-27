@@ -12,10 +12,10 @@
   }
   .img1{
     position: absolute;
-width: 298px;
-height: 298px;
-left: 457px;
-top: 132px;
+    width: 298px;
+    height: 298px;
+    left: 457px;
+    top: 132px;
   }
   .r4{
     position: absolute;
@@ -29,10 +29,10 @@ top: 132px;
   }
   .r4text{
     position: absolute
-width: 341px;
-height: 275px;
-left: 80px;
-top: 154px;
+    width: 341px;
+    height: 275px;
+    left: 80px;
+    top: 154px;
 
 font-family: Overpass;
 font-style: normal;
